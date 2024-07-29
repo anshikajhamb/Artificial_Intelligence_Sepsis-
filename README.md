@@ -1,1 +1,5 @@
 Data Analysis in the file attached above
+
+
+
+Our project aims to develop machine learning models to predict the presence of a cold based on speech patterns using the INTERSPEECH Computational Paralinguistics Challenge Series dataset. The dataset includes 28,652 speech samples with 88 features extracted using eGeMAPS. Three models—Support Vector Machines (SVM), Deep Neural Networks (DNN), and Convolutional Neural Networks (CNN)—were employed, along with data balancing techniques like class-weighting, SMOTE, and ADASYN, to address the dataset's imbalance. SVM with class-weighting and an adjusted threshold showed the best performance with a UAR of 64%. Gender bias was identified, indicating better model performance on male-labeled data. SHAP analysis was used to interpret model predictions, revealing significant speech features influencing cold detection. I highligh the challenges such as class imbalance, gender bias, and potential overfitting, suggesting that incorporating demographic information and controlling for participant variability could improve model performance.
